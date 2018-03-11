@@ -18,9 +18,6 @@ clear
 echo Repositorio Atualizado.
 echo Sistema Atualizado.
 echo Cpuminer instalados.
-echo .
-echo ..
-echo ...
 echo Pressione Enter para Continuar
 read #pausa
 exit
