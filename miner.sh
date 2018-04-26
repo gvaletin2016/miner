@@ -7,17 +7,18 @@ sudo apt-get install build-essential autotools-dev autoconf libcurl3 libcurl4-gn
 
 git clone https://github.com/gvaletin2016/cpuminer-multi
 
-chmod +x niobio.sh
-mv niobio.sh cpuminer-multi/niobio.sh
+chmod +x miningrig.sh
+mv miningrig.sh cpuminer-multi/miningrig.sh
 cd cpuminer-multi 
 chmod +x autogen.sh
 ./autogen.sh
 CFLAGS="-march=native" ./configure
 make
 sudo make install
-./niobio.sh
+./miningrig.sh
 clear
 echo Repositorio Atualizado.
 echo Sistema Atualizado.
 echo Cpuminer instalados.
+echo Pronto. Rodando...
 exit
